@@ -30,7 +30,10 @@ body {
 
 .links {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+}
+.links a{
+  font-size: 12px;
 }
 .layui-form-item {
   position: relative;
